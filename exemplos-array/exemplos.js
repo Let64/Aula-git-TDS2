@@ -1,3 +1,38 @@
 // Letícia Santos
 
 //Exemplos de array
+let sucos = [ "Laranja", "Uva", "Abacaxi", "Manga", "Maracujá"];
+console.log(sucos[0]);
+
+//Criando um array de números
+let numeros = [1,2,3,4,5];
+console.log(numeros[2]);
+
+//Acessando um elemento específico do array
+let animais = ["Cahorro", "Gato", "Pássaro", "Peixe"];
+console.log(animais[1]);
+
+//Alterando um elemento do array
+let times = ["Flamengo", "Palmeiras", "São Paulo", "Corinthians"];
+times[2] = "Vasco";
+console.log(times);
+
+//Adicionando um elemento ao final do arrays
+let cores = ["Vermelho", "Azul", "Verde"];
+cores.push("Amarelo");
+console.log(cores);
+
+//Removendo o último elemento do array
+let carros = ["Fusca", "Gol", "Civic", "Corolla"];
+carros.pop();
+console.log(carros);
+
+//Acessando o último elemento do array
+let cidade = ["Sãp Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba"]
+cidades.shift();
+console.log(cidades);
+
+//Adicionando um elemento ao início do array
+let países = ["Brasil", "Argentina", "Chile"];
+países.unshift("Uruguai");
+console.log(países);
