@@ -17,6 +17,9 @@ let times = ["Flamengo", "Palmeiras", "São Paulo", "Corinthians"];
 times[2] = "Vasco";
 console.log(times);
 
+let games = ["FIFA", "Call of duty", "Minecraft", "Fortnite"];
+console.log(games.langht);
+
 //Adicionando um elemento ao final do arrays
 let cores = ["Vermelho", "Azul", "Verde"];
 cores.push("Amarelo");
@@ -36,3 +39,9 @@ console.log(cidades);
 let países = ["Brasil", "Argentina", "Chile"];
 países.unshift("Uruguai");
 console.log(países);
+
+//Mostrando todos os elementos do array com for
+let frutas = ["Maçã", "Banana", "Laranja", "Uva"];
+for (let i = 0; i < frutas.length; i++) {
+    console.log(frutas[i]);
+}
